@@ -1,0 +1,290 @@
+/* ここから下に記載していく */
+
+body {
+  width: 1200px;
+}
+
+html{
+  max-width:100vw;
+}
+
+.header {
+  width: 1200px;
+  display: flex;
+  top: 0;
+  left: 0;
+  align-items: center;
+  color: black;
+  background-color: #fff;
+}
+
+a:link { color:black; }
+
+.header_logo{
+  width: 400px;
+  height: 60px;
+  background: white;
+  padding-left: 10px;
+}
+
+.nav {
+  display: flex;
+  font-size: 21px;
+}
+
+.header ul {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.nav ul li{
+  margin: 50px 50px;
+}
+
+
+
+#mainvisual {
+  width: 1200px;
+  height: auto; 
+  position: relative;
+  background-color: #fff;
+}
+
+#mainvisual img{
+  width: 100%;
+  height: auto;
+}
+
+.line1{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 50%);
+  padding: 0%;
+  margin: 0%;
+  font-size: 30px;
+  font-weight: 500;
+  color: white;
+}
+
+.line2{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, 250%);
+  padding: 0;
+  margin: 0;
+  font-size: 25px;
+  color: white;
+} 
+
+#about {
+  margin: 0;
+  width: 1200px;
+  background-color: white;
+}
+
+.about-images{
+  width: 1200px;
+  background-color: #fff;
+}
+
+#about h3 {
+  text-align: center;
+  line-height: 3;
+}
+
+#about h4 {
+  text-align: center;
+  line-height: 4;
+}
+
+#about p {
+  text-align: center;
+  line-height: 3;
+}
+
+img {
+  width: 100%;
+}
+
+h3 {
+  font-size: 24px;
+  color: #ffd61a;
+  font-weight: 700;
+}
+
+#course {
+  width: 1200px;
+  background-color: #fff;
+}
+
+.grid-container{
+  display: grid;
+}
+
+.grid-item {
+  display: flex;
+  align-items: center;
+  background-color: #fafafa;
+}
+
+.grid-item img {
+  max-width: 600px;
+  height: auto;
+}
+
+.txt {
+  width: 600px;
+  margin-left: 50px;
+  margin-top: 120px;
+  margin-bottom: 120px;
+}
+
+.txt h3 {
+  width: 480px;
+  margin-bottom: 40px;
+  color:black;
+}
+
+.txt p{
+  width: 480px;
+  font-size: 16px;
+}
+
+.course-box {
+  display: grid;
+  margin-top: 60px;
+  margin-bottom: 60px
+}
+
+.course-box h3{
+  color:black;
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.course-box p {
+  text-align: center;
+  line-height: 2;
+}
+
+#news{
+  background-color: #fff;
+}
+
+.news_text{
+  text-align: center;
+  margin: 60px 60px;
+}
+
+.news_box{
+  display: flex;
+  justify-content: center;
+}
+
+.news_box p {
+  margin-top: 24px;
+}
+
+.news_box h5{
+  margin-top: 30px;
+}
+
+.news_box1{
+  margin-right:30px;
+}
+
+.news_box2{
+  margin-right: 30px;
+}
+
+.more_button{
+  display: grid;
+  width: 300px;
+  height: 60px;
+  font-size: 18px;
+  color: white;
+  background: #ffd61a;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  margin-left: 450px;
+}
+
+.more_button p {
+  text-align: center;
+  margin-top: 20px;
+}
+
+#access {
+  background-color: #fafafa;
+  display: grid;
+}
+
+.access-txt{
+  width: 1200px;
+  display: grid;
+}
+
+.access-txt h3{
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+  margin-bottom: 30px;
+}
+
+.access-txt h4{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+table {
+  text-align: left;
+  margin-left: 300px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+
+th,td {
+  padding: 5px 15px;
+}
+
+#contact {
+  background-color: #fff;
+}
+
+.contact-txt h3{
+  color: black;
+  text-align: center;
+  margin-top: 60px;
+}
+
+.contact-txt h4{
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+.contact-txt p {
+  text-align: center;
+}
+
+.form button {
+  width: 300px;
+  height: 60px;
+  background-color: #ffd61a;
+  color: white;
+  border-color: none;
+  margin-left: 450px;
+}
+
+.footer{
+  background-color: #707070;
+}
+
+.footer_b{
+}
+
+.footer_text p {
+  color: white;
+  text-align: center;
+}
